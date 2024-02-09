@@ -17,5 +17,5 @@ dependencies {
 }
 
 application {
-    mainClass.set("pt.test.task.MainKt")
+    mainClass.set("pttesttask.MainKt")
 }
