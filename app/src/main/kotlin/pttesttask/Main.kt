@@ -1,6 +1,6 @@
-package pt.test.task
+package pttesttask
 
-import pt.test.task.predictor.Predictor
+import pttesttask.predictor.Predictor
 import java.io.File
 
 fun main(args: Array<String>) {

@@ -1,4 +1,4 @@
-package pt.test.task.predictor
+package pttesttask.predictor
 
 import com.github.javaparser.StaticJavaParser
 import com.github.javaparser.ast.CompilationUnit
