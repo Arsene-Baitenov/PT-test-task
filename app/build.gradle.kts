@@ -14,6 +14,13 @@ dependencies {
 
     implementation("io.ksmt:ksmt-core:0.5.6")
     implementation("io.ksmt:ksmt-z3:0.5.6")
+
+    testImplementation(platform("org.junit:junit-bom:5.9.2"))
+    testImplementation("org.junit.jupiter:junit-jupiter")
+}
+
+tasks.test {
+    useJUnitPlatform()
 }
 
 application {
